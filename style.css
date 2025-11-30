@@ -1,0 +1,123 @@
+/* Social Media Icons */
+.social-links {
+	margin-top: 10px;
+	text-align: center;
+}
+.social-icon {
+	width: 28px;
+	height: 28px;
+	margin: 0 8px;
+	vertical-align: middle;
+	filter: grayscale(0.2) brightness(0.8);
+	transition: filter 0.2s;
+}
+.social-icon:hover {
+	filter: none;
+}
+@media (max-width: 600px) {
+	.container {
+		max-width: 98vw;
+		margin: 10px auto 10px auto;
+		padding: 10px;
+		border-radius: 0;
+	}
+	nav {
+		font-size: 1em;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+		justify-content: center;
+		margin-bottom: 12px;
+	}
+	.gallery {
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+	.gallery img {
+		width: 98vw;
+		max-width: 320px;
+		height: auto;
+	}
+	.contact-form {
+		max-width: 98vw;
+		padding: 10px;
+	}
+	footer {
+		max-width: 98vw;
+		font-size: 0.95em;
+		padding: 10px 0;
+		border-radius: 0;
+	}
+}
+/* Contact Form */
+.contact-form {
+	max-width: 400px;
+	margin: 20px auto;
+	background: #f5f5f5;
+	padding: 20px;
+	border-radius: 6px;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+.contact-form input,
+.contact-form textarea {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 1em;
+}
+.contact-form button {
+	background: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 1em;
+}
+.contact-form button:hover {
+	background: #0056b3;
+}
+
+/* Gallery */
+.gallery {
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 20px 0;
+}
+.gallery img {
+	width: 180px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 6px;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+/* Blog Post */
+.blog-post {
+	background: #f5f5f5;
+	padding: 20px;
+	border-radius: 6px;
+	margin: 20px 0;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+.blog-post h2 {
+	margin-top: 0;
+}
+.blog-date {
+	color: #888;
+	font-size: 0.95em;
+	margin-bottom: 10px;
+}
+body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; }
+.container { max-width: 800px; margin: 40px auto 20px auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+h1 { color: #333; }
+p { color: #555; }
+nav { margin-bottom: 20px; text-align: center; }
+nav a { color: #007bff; text-decoration: none; margin: 0 10px; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+footer { text-align: center; padding: 16px 0; background: #222; color: #fff; border-radius: 0 0 8px 8px; margin: 0 auto; max-width: 800px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
